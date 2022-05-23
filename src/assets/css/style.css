@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    margin: auto;
+    max-width:416px;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+ 
+
+.container-session .button{
+   margin-top: 60px;
+    padding: 0 30px;
+}
+
+
+
+
+
