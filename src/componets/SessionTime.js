@@ -2,6 +2,8 @@ import styled from "styled-components"
 import Button from "./Button";
 export default function SessionTime({weekday,date, showtimes}){
     
+    
+
     return(
         <Session>
             <p>{weekday} - {date}</p>

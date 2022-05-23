@@ -51,9 +51,9 @@ export default function Sessao({session, setSession, idSeats, setIdSeats, name, 
             name: name,
             cpf: cpf,
         } 
-        // const promise = axios.post("https://mock-api.driven.com.br/api/v5/cineflex/seats/book-many",date);
-        // promise.then(response => console.log(response.data));
-        // promise.catch(err => console.log(err))
+        const promise = axios.post("https://mock-api.driven.com.br/api/v5/cineflex/seats/book-many",date);
+        promise.then(response => console.log(response.data));
+        promise.catch(err => console.log(err))
         navigate("/sucesso");
         
     }
