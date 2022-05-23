@@ -4,6 +4,16 @@ export default function CompletedOrder({session, name, cpf, idSeats}){
     console.log(name)
     console.log(cpf)
     console.log(idSeats)
+    const assentos =[]
+    for(let i = 0; i < session.seats.length; i ++) {
+        for(let j = 0; j < idSeats.length; j++){
+                if(session.seats[i].id === idSeats[j]){
+                    assentos.push(session.seats[i].name)
+                }
+        }
+        
+       console.log(assentos)
+    }
     return(
 
         <CompletedContainer>
@@ -14,7 +24,7 @@ export default function CompletedOrder({session, name, cpf, idSeats}){
                 <p>{session.length === 0 ?"carregando" : session.day.weekday} - {session.length === 0 ?"carregando" :session.name}</p>   
 
                 <h3>Ingressos</h3>
-
+                    {assentos.map(item => <p>Assento {item}</p>)}
                 <h3>Comprador</h3>
                 <p>Nome: {name}</p>
                 <p>CPF: {cpf}</p>
