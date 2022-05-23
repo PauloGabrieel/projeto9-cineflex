@@ -116,6 +116,7 @@ const SessionContainer = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 24px;
+    margin-bottom: 140px;
 
     h2{
         text-align: center;

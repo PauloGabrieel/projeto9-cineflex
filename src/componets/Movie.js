@@ -35,6 +35,7 @@ export default function Movie({setMovie, movie}){
 const MovieContainer = styled.div`
     display:  flex;
     flex-direction: column;
+    margin-bottom: 140px;
 
     h2{
         text-align: center;

@@ -14,6 +14,9 @@ const FooterContainer = styled.div`
     height: 117px;
     width: 100%;
     background-color: #DFE6ED;
+    position: fixed;
+    width:416px;
+    bottom:0;
 
     img{
         width: 48px;

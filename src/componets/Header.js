@@ -13,7 +13,9 @@ const HeaderComntainer = styled.div`
     align-items: center;
     background-color: #C3CFD9;
     height: 67px;
-
+    position:fixed;
+    top:0;
+    width:416px;
     h1{
         font: 400 34px 'Roboto', sans-serif;
         color:#E8833A;
