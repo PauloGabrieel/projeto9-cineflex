@@ -33,6 +33,7 @@ export default function Movie({setMovie, movie}){
 };
 
 const MovieContainer = styled.div`
+    margin-top: 80px;
     display:  flex;
     flex-direction: column;
     margin-bottom: 140px;

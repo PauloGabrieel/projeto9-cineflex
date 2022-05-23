@@ -35,6 +35,7 @@ export default function CompletedOrder({session, name, cpf, idSeats}){
 };
 
 const CompletedContainer = styled.div`
+    margin-top: 100px;
     display: flex;    
     flex-direction: column;
     padding: 0 24px;

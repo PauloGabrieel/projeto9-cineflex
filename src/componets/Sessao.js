@@ -112,7 +112,8 @@ export default function Sessao({session, setSession, idSeats, setIdSeats, name, 
 };
 
 const SessionContainer = styled.div`
-     display: flex;
+    margin-top: 80px;
+    display: flex;
     align-items: center;
     flex-direction: column;
     padding: 0 24px;

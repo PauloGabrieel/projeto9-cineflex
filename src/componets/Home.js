@@ -28,6 +28,7 @@ export default function Home(){
 };
 
 const HomeContainer = styled.div`
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
